@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Book Review</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Personal Book Review</a>
+        </div>
+        <div>
+            <h3></h3>
+            <p>Review id: <span id="bookId"></span></p>
+            <p id="review"></p>
+            <p id="rate"></p>
+            <div class="button-container">
+                <form id="editpage" action="edit-review.html" method="GET">
+                    <input type="hidden" id="idInput" name="id">
+                    <button type="submit">Edit</button>
+                </form>
+                <button id="delete">Delete</button>
+            </div>
+        </div>
+        <script src="review.js"></script>
+    </body>
+</html>

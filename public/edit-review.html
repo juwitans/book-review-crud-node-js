@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Book Review</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <a class="active" href="index.html">Personal Book Review</a>
+        </div>
+        <div class="form-container">
+            <form class="edit-review">
+            <h3><center>Edit Book Review</center></h3>
+              <div class="form-group">
+                <label for="title">Book Title:</label>
+                <input type="text" id="title" name="title" required>
+              </div>
+              <div class="form-group">
+                <label for="authors">Authors: </label>
+                <input type="text" id="authors" name="authors" required>
+              </div>
+              <div class="form-group">
+                <label for="review"> Review:</label>
+                <input type="text" id="review" name="review" required>
+              </div>
+              <div class="form-group">
+                <label for="rate">Rate: </label>
+                <input type="number" id="rate" name="rate"  required>
+              </div>
+              <button type="submit">Save</button>
+        </form>
+        </div>
+        <script src="edit-review.js"></script>
+    </body>
+</html>
